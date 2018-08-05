@@ -8,11 +8,11 @@ import Register from './register';
 import Profile from './profile';
 import CameraList from "./camera";
 
-const RNfix = StackNavigator({
-	Home: { screen: HomeScreen },
-	Login: { screen: Login },
-	Register: {screen: Register},
-	Profile: {screen: Profile},
-	CameraList: { screen: CameraList }
- });
-export default RNfix;
+const RNCameraDemo2 = StackNavigator({
+  Home: { screen: HomeScreen },
+  Login: { screen: Login },
+  Register: { screen: Register },
+  Profile: { screen: Profile },
+  CameraList: { screen: CameraList }
+});
+export default RNCameraDemo2;
